@@ -14,9 +14,14 @@ label.error{
 	padding-top: 60px;
 }	
 
-#contentIndex{
-	background: url(../Image/BG%20graphpaper.png) no-repeat;
+#formContent{
+	background: url(../Image/BGform%20graphpaper.png) no-repeat white;
 	padding-top: 60px;
+}	
+
+#contentIndex{
+	padding-top: 60px;
+	background: url(../Image/BGindex%20graphpaper.png) no-repeat;
 }	
 
 #feature{
@@ -27,6 +32,7 @@ label.error{
 #newPrjFrom{
 	padding-right: 10px;
 	padding-left: 10px;
+	margin-top: 50px;
 }
 
 #prjFrom{
@@ -37,13 +43,18 @@ label.error{
 #addProject{
 	padding-right: 10px;
 	padding-left: 10px;
+	margin-top: 210px;
 }
 
 #browse{
 	padding-right: 20px;
 	padding-left: 20px;
-	margin-top: 20px;
+	margin-top: 30px;
 	height: 400px;
+}
+
+#browsePrj{
+	background: url(../Image/BG%20Search.jpg) no-repeat;
 }
 	
 /*  additem.htmal  */
