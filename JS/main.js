@@ -21,6 +21,13 @@ $(document).ready(function() {
 	});
 
 });
+	
+submitHandler: function () {
+	var data = $(".myform").serializeArry();
+	localStorage.setItem("formdata", data);
+}
+	
+	
 		
 /*
 
