@@ -48,7 +48,7 @@
 					
 				<div data-role="collapsible" id="browsePrj" >
 					<h3>Browse a Project Track</h3>
-					<ul data-role="listview" data-inset="true">
+					<ul data-role="listview" data-inset="true" data-theme="b">
 						<li>
 							<a href="#site">
 							<img src="image/Site Development.png"/>
@@ -72,7 +72,7 @@
 				
 				<div data-role="collapsible" id="browseTsk">
 					<h4>Browse a Project Task</h4>
-					<ul data-role="listview" data-inset="true">
+					<ul data-role="listview" data-inset="true" data-theme="b">
 						<li>
 							<a href="#drawings">
 							<img src="image/Drawings.png"/>
@@ -106,9 +106,7 @@
 					<!--<li><a href="index.html" rel="external" data-icon="home">Home</a></li>-->
 				</ul>
 			</div>
-		</div>
-		
-		
+		</div>	
 	</div>		<!--Home page ends here-->
 	
 	
@@ -127,17 +125,16 @@
 				<h4>Site Development Projects</h4>
 			</div>
 	
-	
-			<div data-role="collapsible" id="browsePrj">
+			<div data-role="collapsible" id="browsePrjPg" data-theme="b">
 				<h3>Project</h3>
-				<ul data-role="listview" data-inset="true">
+				<ul data-role="listview" data-inset="true" data-theme="b">
 					<li><img src="image/Site Development.png"/></li>
 					<li>Project Type:  Site Development</li>
-					<li>Project Name: New Envelope Project</li>
+					<li>Project Name: New Site Project</li>
 					<li>Project Number: 1234502</li>
 					<li>Designer Name: Me</li>
 					<li>Completion Date: 2011-01-01</li>
-					<li>Drawings: Elevations</li>
+					<li>Drawings: Plans</li>
 					<li>Drawings Comments: none</li>
 					<li>3D Work: All</li>
 					<li>3D Work Comments: none</li>
@@ -150,7 +147,7 @@
 			<div data-role="navbar">
 				<ul>
 					<li><a href="#" data-icon="delete">Clear Stored Data</a></li>
-					<li><a href="#" data-icon="search">Display Data</a></li>
+					<!--<li><a href="#" data-icon="search">Display Data</a></li>-->
 					<li><a href="#home" rel="" data-icon="home">Home</a></li>
 				</ul>
 			</div>
@@ -173,13 +170,31 @@
 			<div id="trackTitle">
 				<h4>Building Envelope Projects</h4>
 			</div>
+			
+			<div data-role="collapsible" id="browsePrjPg" data-theme="b">
+				<h3>Project</h3>
+				<ul data-role="listview" data-inset="true" data-theme="b">
+					<li><img src="image/Building Envelope.png"/></li>
+					<li>Project Type:  Building Envelope</li>
+					<li>Project Name: New Envelope Project</li>
+					<li>Project Number: 1234501</li>
+					<li>Designer Name: Me</li>
+					<li>Completion Date: 2011-01-01</li>
+					<li>Drawings: Plans, Elevations, Sections</li>
+					<li>Drawings Comments: none</li>
+					<li>3D Work: All</li>
+					<li>3D Work Comments: none</li>
+					<li>Renderings: 5</li>
+				</ul>
+			</div>			
+			
 		</div>
 		
 		<div data-role="footer" data-position="fixed" data-theme="b" >
 			<div data-role="navbar">
 				<ul>
 					<li><a href="#" data-icon="delete">Clear Stored Data</a></li>
-					<li><a href="#" data-icon="search">Display Data</a></li>
+					<!--<li><a href="#" data-icon="search">Display Data</a></li>-->
 					<li><a href="#home" rel="" data-icon="home">Home</a></li>
 				</ul>
 			</div>
@@ -202,19 +217,37 @@
 			<div id="trackTitle">
 				<h4>Interior Design Projects</h4>
 			</div>
+			
+			<div data-role="collapsible" id="browsePrjPg" data-theme="b">
+				<h3>Project</h3>
+				<ul data-role="listview" data-inset="true" data-theme="b">
+					<li><img src="image/Interior Design.png"/></li>
+					<li>Project Type:  Interior Design</li>
+					<li>Project Name: New Interior Project</li>
+					<li>Project Number: 1234503</li>
+					<li>Designer Name: Me</li>
+					<li>Completion Date: 2011-01-01</li>
+					<li>Drawings: Plans, Elevations, Sections</li>
+					<li>Drawings Comments: none</li>
+					<li>3D Work: All</li>
+					<li>3D Work Comments: none</li>
+					<li>Renderings: 8</li>
+				</ul>
+			</div>		
+			
 		</div>
-		
+				
 		<div data-role="footer" data-position="fixed" data-theme="b" >
 			<div data-role="navbar">
 				<ul>
 					<li><a href="#" data-icon="delete">Clear Stored Data</a></li>
-					<li><a href="#" data-icon="search">Display Data</a></li>
+					<!--<li><a href="#" data-icon="search">Display Data</a></li>-->
 					<li><a href="#home" rel="" data-icon="home">Home</a></li>
 				</ul>
 			</div>
 		</div>
 		
-	</div>		<!--Interior Design page ends here-->
+	</div>									<!--Interior Design page ends here-->
 	
 	
 	<div data-role="page" id="drawings">	<!--drawings page stars here-->
@@ -237,13 +270,13 @@
 			<div data-role="navbar">
 				<ul>
 					<li><a href="#" data-icon="delete">Clear Stored Data</a></li>
-					<li><a href="#" data-icon="search">Display Data</a></li>
+					<!--<li><a href="#" data-icon="search">Display Data</a></li>-->
 					<li><a href="#home" rel="" data-icon="home">Home</a></li>
 				</ul>
 			</div>
 		</div>
 		
-	</div>		<!--drawings page ends here-->
+	</div>								<!--drawings page ends here-->
 	
 	
 	<div data-role="page" id="trdWork">	<!--3d work page stars here-->
@@ -266,13 +299,13 @@
 			<div data-role="navbar">
 				<ul>
 					<li><a href="#" data-icon="delete">Clear Stored Data</a></li>
-					<li><a href="#" data-icon="search">Display Data</a></li>
+					<!--<li><a href="#" data-icon="search">Display Data</a></li>-->
 					<li><a href="#home" rel="" data-icon="home">Home</a></li>
 				</ul>
 			</div>
 		</div>
 		
-	</div>		<!--drawings page ends here-->
+	</div>								<!--3d work page ends here-->
 	
 	
 	<div data-role="page" id="renderings">	<!--renderings page stars here-->
@@ -295,7 +328,7 @@
 			<div data-role="navbar">
 				<ul>
 					<li><a href="#" data-icon="delete">Clear Stored Data</a></li>
-					<li><a href="#" data-icon="search">Display Data</a></li>
+					<!--<li><a href="#" data-icon="search">Display Data</a></li>-->
 					<li><a href="#home" rel="" data-icon="home">Home</a></li>
 				</ul>
 			</div>

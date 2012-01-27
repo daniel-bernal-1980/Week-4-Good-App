@@ -12,21 +12,28 @@ label.error{
 #content{
 	background: url(../Image/BG%20graphpaper.png) no-repeat white;
 	padding-top: 60px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 600px;
 }	
 
-#formContent{
+#contentForm{
 	background: url(../Image/BGform%20graphpaper.png) no-repeat white;
 	padding-top: 60px;
 }	
 
 #contentIndex{
 	padding-top: 60px;
-	background: url(../Image/BGindex%20graphpaper.png) no-repeat;
+	background: url(../Image/BGindex%20graphpaper.png) no-repeat white;
 }	
 
-#feature{
+/*#feature{
 	padding-left: 10px;
 	padding-right: 5px;
+}*/
+
+#txArea{
+	
 }
 
 #newPrjFrom{
@@ -53,10 +60,18 @@ label.error{
 	height: 400px;
 }
 
-#browsePrj{
-	background: url(../Image/BG%20Search.jpg) no-repeat;
+#trackTitle{
+	padding-right: 20px;
+	padding-left: 30px;
+	
 }
 	
+#browsePrjPg{
+	padding-right: 20px;
+	padding-left: 30px;
+	
+}
+
 /*  additem.htmal  */
 	
 /*Body{ 

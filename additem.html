@@ -34,7 +34,7 @@
 		<label for="search-basic"></label>
 		<input type="search" name="search" id="searc-basic" value="Search a Project" />
 		
-		<div data-role="content" id="formContent">
+		<div data-role="content" id="contentForm">
 			
 			<form action="" smethod="post"  id="newPrjFrom">
 				
@@ -45,7 +45,7 @@
 				
 				<div data-role="fieldcontain">
 					<label for="projectType" >* Project Type:</label>
-					<select name="projectType" id="projectType" data-native-menu="false" class="required">
+					<select name="projectType" id="projectType" data-native-menu="false" data-theme="b" class="required">
 						<option data-placeholder="true">-- Choose a Type --</option>
 						<option value="siteDevelopment">Site Development</option>
 						<option value="buildingEnvelope">Building Envelope</option>
@@ -55,30 +55,30 @@
 				
 				<div data-role="fieldcontain">
 					<label for="projectName">* Project Name:</label>
-					<input type="text" name="projectName"  id="projectName" value="" class="required"/>
+					<input type="text" name="projectName"  id="projectName" value="" data-theme="b" class="required"/>
 				</div>
 				
 				<div data-role="fieldcontain">
 					<label for="projectNumber">Project Number:</label>
-					<input type="number" name="projectNumber"  id="projectNumber" value="" placeholder="yynnn" class="required number"/>
+					<input type="number" name="projectNumber"  id="projectNumber" value="" data-theme="b" placeholder="yynnn" class="required number"/>
 					<p>Project Number starts with the year follow by a three digit number </p>
 				</div>
 				
 				<div data-role="fieldcontain">
 					<label for="designerName">* Designer Name:</label>
-					<input type="text" name="designerName"  id="designerName" value="" class="required"/>
+					<input type="text" name="designerName"  id="designerName" value="" data-theme="b" class="required"/>
 				</div>
 				
 				<div data-role="fieldcontain">
 					<label for="completionDate">* Completion Date:</label>
-					<input type="date" name="completionDate"  id="completionDate" value="" placeholder="yyyy-mm-dd" class="required date"/>
+					<input type="date" name="completionDate"  id="completionDate" value="" data-theme="b" placeholder="yyyy-mm-dd" class="required date"/>
 					<p>The projected date for the completion of the project</p>
 				</div>
 				
 				<h4>Tasks</h4>
 				
-				<div data-role="fieldcontain">
-					<fieldset data-role="controlgroup">
+				<div data-role="fieldcontain" >
+					<fieldset data-role="controlgroup" data-theme="b">
 						<legend>Drawings:</legend>
 						<input type="checkbox" value="plans" name="dwg" id="plans"/>
 						<label for="plans">Plans</label>
@@ -90,12 +90,12 @@
 				</div>
 				
 				<div data-role="fieldcontain">
-					<label for="comments">Drawings Comments:</label>
-					<textarea placeholder="Add details for the requiered drawings."></textarea>
+					<label for="comments" id="txArea">Drawings Comments:</label>
+					<textarea placeholder="Add details for the requiered drawings." data-theme="b"></textarea>
 				</div>
 				
 				<div data-role="fieldcontain">
-					<fieldset data-role="controlgroup">
+					<fieldset data-role="controlgroup" data-theme="b">
 						<legend>3D Work:</legend>
 						<input type="radio" value="digitalModel" name="trdWork" id="dModel"/>
 						<label for="dModel">Digital Model</label>
@@ -110,20 +110,20 @@
 				
 				<div data-role="fieldcontain">
 					<label for="comments">3D Work Comments:</label>
-					<textarea placeholder="Add details for the requiered 3D work."></textarea>
+					<textarea placeholder="Add details for the requiered 3D work." data-theme="b"></textarea>
 				</div>
 				
 				<div data-role="fieldcontain">
 						<label for="renderings">Renderings:</label>
-						<select data-role="slider">
+						<select data-role="slider" data-theme="b">
 							<option value="off">no</option>
 							<option value="on">yes</option>
 						</select>
 				
 						<p></p>
 					
-						<label for="renderings">Number of Renderings:</label>
-						<input type="range" name="rend" id="rend" value="0" min="0" max="50"/>
+						<label for="renderings" data-theme="b">Number of Renderings:</label>
+						<input type="range" name="rend" id="rend" data-theme="b" value="0" min="0" max="50"/>
 				</div>
 				
 				<div data-role="fieldcontain" >
