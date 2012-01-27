@@ -8,6 +8,19 @@ label.error{
 	display: block; margin: 10px; 0; color: red;
 }	
 
+/*#header{
+	background-image: url(../Image/BG%20Search.jpg);
+	margin-top: -21px;
+	margin-bottom: -21px;
+}*/
+
+/*h1{
+	text-align: right;
+	text-shadow: 1px 1px 4px rgba(94, 144, 184, 0.81);
+	color: white;
+	padding-right: 20px;
+	font-size: 30px;
+}*/
 
 #content{
 	background: url(../Image/BG%20graphpaper.png) no-repeat white;
@@ -21,6 +34,13 @@ label.error{
 	background: url(../Image/BGform%20graphpaper.png) no-repeat white;
 	padding-top: 60px;
 }	
+
+#formBlock{
+	-moz-box-shadow: 2px 2px 6px #839eb0;
+	-webkit-box-shadow: 2px 2px 6px #839eb0;
+	box-shadow: 2px 2px 6px #839eb0;
+	opacity: 0.75;
+}
 
 /*#contentIndex{
 	padding-top: 60px;
